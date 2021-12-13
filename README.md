@@ -1,2 +1,2 @@
 # Proyecto-DWA
-Proyecto de Diseño Web, Sitio Web para la empresa Colchones el Salvador.
+Proyecto de Diseño Web, creacion de Sitio Web para la empresa El nuevo Colchones el Rey.
