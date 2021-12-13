@@ -53,51 +53,62 @@
   <!-- fin del menu-->
   </header>       
             
-            <main class="col px-0 flex-grow-1 ">
-                <div class="container py-3">
-                    <h2 style="text-align: center;">Contactanos</h2>
-                    <div class="row">
-                        
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.831407843143!2d-88.1774070858597!3d13.48448410706641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b2b12f5604fa9%3A0xe583eb8e5d2b310c!2sColchones%20El%20Rey!5e0!3m2!1ses-419!2ssv!4v1635709599688!5m2!1ses-419!2ssv" width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-            
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+       <div class="background background-image" style="background-image: url(img/contacto.jpg); max-width: 100%; height: 300px;" data-imgwidth="1024">
+      </div>
+  <br>
+
+            <main class="col px-0 flex-grow-1 " >
+                <div class="container py-3" >
+                    <h2 style="text-align: center;" class="titulo">Contactanos</h2>
+                    <br> 
+                    <div class="row" id="color"  > 
+                      <br>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.831407843143!2d-88.1774070858597!3d13.48448410706641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b2b12f5604fa9%3A0xe583eb8e5d2b310c!2sColchones%20El%20Rey!5e0!3m2!1ses-419!2ssv!4v1635709599688!5m2!1ses-419!2ssv" width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div> 
+                    <br>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" >
+                          <br>
+                          <span class="texto">Póngase en contacto con nosotros para mayor información o cotización de alguno de nuestros colchones.
+                             Llene nuestro formulario y en breve uno de nuestros asesores se COMUNICARÁ CON USTED.</span>
+
+                          <br>
                             <center>      <div class="well well-sm" >
-                                <form class="form-horizontal" method="post">
-                                    <fieldset>
+                                <form class="form-horizontal" target="_blank" action="https://formsubmit.co/alfaromargarita556@gmail.com" method="POST">
+                                    <fieldset >
+                                      
                                         <div class="form-group">
-                                            <span class="col-md-1  text-center"><i class="fa fa-user bigicon" style="text-align: left;"></i></span>
                                             <div class="col-md-8">
-                                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                            <br>
+                                                <input id="nombre" name="nombre" type="text" placeholder="Nombre" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <span class="col-md-1  text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <br>
+                                        <div class="form-group">   
                                             <div class="col-md-8">
-                                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                                <input id="apellido" name="apellido" type="text" placeholder="Apellido" class="form-control">
                                             </div>
                                         </div>
-                
+                                        <br>
                                         <div class="form-group">
-                                            <span class="col-md-1  text-center"><i class="fa fa-envelope-open bigicon"></i></span>
+                                            
                                             <div class="col-md-8">
                                                 <input id="email" name="email" type="text" placeholder="Email" class="form-control">
                                             </div>
                                         </div>
-                
+                                        <br>
                                         <div class="form-group">
-                                            <span class="col-md-1  text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                            
                                             <div class="col-md-8">
-                                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                                <input id="telefono" name="telefono" type="text" placeholder="Telefono" class="form-control">
                                             </div>
                                         </div>
-                
+                                        <br>
                                         <div class="form-group">
-                                            <span class="col-md-1  text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                             <div class="col-md-8">
-                                                <textarea class="form-control" id="message" name="message"
-                                                 placeholder="Ingrese su mensaje responderemos a la brevedad posible" 
+                                                <textarea class="form-control" id="mensaje" name="mensaje"
+                                                 placeholder="Comentarios" 
                                                  rows="4"></textarea>
                                             </div>
                                         </div>
@@ -105,48 +116,53 @@
                                         <div class="form-group">
                                             <div class="col-md-12 text-center">
                                                 <br>
-                                                <button type="submit" class="btn btn-primary btn-lg btn-center">Submit</button>
+                                                <button id="btnEnviarCorreo" type="submit" style="background-color: #102b59; color: white;" class="btn  btn-lg btn-center ">Enviar</button>
                                             </div>
+                                            <br>
                                         </div>
                                     </fieldset>
                                 </form>
                             </div>
                         </div>
-                        
-                    </center>   
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                        <br>
+                    </center> 
+                    <br><br>
+                    </div>
+                    <br>
+                    <hr>
+                    <h2 class="titulo">Redes Sociales</h2>
+                    <center>
+                    <div class="row">
+                      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <br><br><br>
+                        <div class="redes">
                         <ul class="fa-ul" style="margin-left: 1.65em;">
                             <li class="mb-2">
-                                <i class="bi bi-facebook bigicon"></i>
-                                <a href="">Facebook</a>
+                                <a href="https://www.facebook.com/El-Nuevo-Colchones-El-Rey-111777105569799/"><img src="img/facebook.png" alt="" class="iconos"></a>
                             </li>
-                            <hr>
-                            <br><br>
-                            <li class="mb-2">
-                                <i class="bi bi-whatsapp bigicon"></i>
-                                <a href="">WhatsApp</a>
-                            </li>
-                            <hr>
-                            <br><br>
-                            <li class="mb-2">
-                                <i class="fas fa-phone bigicon"></i>
-                                <a href="">2661 - 3791</a>
-                            </li>
-                            <hr>
                           </ul>
-                    </div>
+                        </div>
+                        </div>
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                              <br><br><br>
+                              <ul class="fa-ul" style="margin-left: 1.65em;">
+                                <li class="mb-2">
+                                  <a href="https://wa.link/ers8rj"><img src="img/whatsapp.png" alt="" class="iconos"></a>
+                              </li>
+                              </ul> 
+                         </div>
+                        </center>
                     </div>
                 </div>
             </section>
         </div>
     </main>
-           
-
+    <br>            
+<!-- fin del menu-->
        
 <div class="footer">
 
-    <footer class="text-white text-lg-start bg-dark">
+    <footer class="text-white text-lg-start #102b59">
       <!-- Grid container -->
       <div class="container p-4">
         <!--Grid row-->
