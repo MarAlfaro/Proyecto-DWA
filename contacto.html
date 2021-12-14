@@ -75,7 +75,7 @@
 
                           <br>
                             <center>      <div class="well well-sm" >
-                                <form class="form-horizontal" target="_blank" action="https://formsubmit.co/alfaromargarita556@gmail.com" method="POST">
+                                <form id="myForm" class="form-horizontal" target="_blank" action="https://formsubmit.co/alfaromargarita556@gmail.com" method="POST">
                                     <fieldset >
                                       
                                         <div class="form-group">
@@ -116,7 +116,7 @@
                                         <div class="form-group">
                                             <div class="col-md-12 text-center">
                                                 <br>
-                                                <button id="btnEnviarCorreo" type="submit" style="background-color: #102b59; color: white;" class="btn  btn-lg btn-center ">Enviar</button>
+                                                <button type="submit" style="background-color: #102b59; color: white;" class="btn  btn-lg btn-center" onclick="myFunction()" value="Reset form">Enviar</button>
                                             </div>
                                             <br>
                                         </div>
@@ -241,6 +241,10 @@
   <script src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Pro-Advanced_3.8.1/js/mdb.min.js"></script>
   <script src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Pro-Advanced_3.8.1/plugins/js/all.min.js"></script>
   <script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script>
-
+<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+}
+</script>
 </body>
 </html>
